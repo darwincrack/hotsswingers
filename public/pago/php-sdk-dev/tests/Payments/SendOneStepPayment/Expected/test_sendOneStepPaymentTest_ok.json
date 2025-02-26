@@ -1,0 +1,30 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2018-04-18T09:10:41+0200",
+  "order": {
+    "uuid": "AB1ECA33-4566-4C2F-AC6C-6259E23D53D1",
+    "created": "2018-04-18T09:10:41+0200",
+    "created_from_client_timezone": "2018-04-18T09:10:41+0200",
+    "amount": 400,
+    "currency": 978,
+    "paid": false,
+    "safe": false,
+    "refunded": 0,
+    "additional": "",
+    "service": "REDSYS",
+    "customer": null,
+    "status": "CREATED",
+    "transactions": [],
+    "token": "082a593dcccf5f3f37a563815659d4316154dff7f8139fabaa98bdffe9ce4375c5f9bb60825d1585738",
+    "ip": null
+  },
+  "extra_data": {
+    "payment": {
+      "installments": 3
+    }
+  },
+  "client": {
+    "uuid": "818431F0-F23F-47EA-A854-BD01E8593E2E"
+  }
+}

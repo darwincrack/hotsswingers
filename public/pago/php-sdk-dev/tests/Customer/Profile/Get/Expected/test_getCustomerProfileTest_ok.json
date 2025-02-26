@@ -1,0 +1,36 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2019-11-19T15:09:31+0100",
+  "customer_profile": {
+    "first_name": "Saville J",
+    "last_name": "Dulce Armentrout",
+    "cardholder_name": "Saville J Dulce Armentrout",
+    "document_identification_issuer_type": "FEDERAL_GOVERNMENT",
+    "document_identification_type": "NATIONAL_IDENTITY_DOCUMENT",
+    "document_identification_number": "12345678Z",
+    "email": null,
+    "phone": {
+      "number": null,
+      "prefix": null
+    },
+    "home_phone": {
+      "number": "654123789",
+      "prefix": "123"
+    },
+    "work_phone": {
+      "number": "321654987",
+      "prefix": null
+    },
+    "mobile_phone": {
+      "number": "87654132",
+      "prefix": "333"
+    },
+    "birthdate": "1971-08-05",
+    "source_of_funds": "Salary",
+    "occupation": "Shoe Machine Operators",
+    "social_security_number": "503-33-4388",
+    "created_at": "2019-11-19 15:04:39",
+    "updated_at": "2019-11-19 15:04:39"
+  }
+}

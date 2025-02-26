@@ -1,0 +1,6 @@
+uuid: 71008AC1-7CF1-4BED-9A00-DB6D53A3877E<br>
+status: SUCCESS<br>
+amount: 3899<br>
+ip: 190.74.205.176<br>
+reference: Token implik-2.com<br>
+id_user: 12345678Z<br>

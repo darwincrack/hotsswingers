@@ -1,0 +1,13 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2019-11-19T16:00:36+0100",
+  "customer": {
+    "external_id": "12345678A"
+  },
+  "customer_account": {
+    "uuid": "9B5DDCC2-24A9-4157-A56D-193EB9EF3966",
+    "account_type": "ACCOUNT_NUMBER",
+    "account_number": "100169168"
+  }
+}

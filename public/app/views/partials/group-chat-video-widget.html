@@ -1,0 +1,11 @@
+<div>
+  <button type="button" class="btn btn-primary btn-block" ng-click="joinConversation()"
+           ng-show="userRole !== 'model' && !userStreaming">{{JoinConversation}}</button>
+  <button type="button" class="btn btn-primary btn-block" ng-click="startConversation()"
+          ng-show="userRole === 'model' && !modelStreaming">{{StartConversation}}</button>
+    <button class="btn btn-danger btn-block" ng-if="modelStreaming || userStreaming" ng-click="stopStreaming()">{{Leaveroom}}</button>
+</div>
+<div class="groupchat-current-video" ng-show="isShowLargeVideo"><video id="currentvideo-groupchat" muted></video></div>
+<div class="clear"></div>
+<div id="groupchat-videos-container" ng-show="userStreaming || modelStreaming"></div>
+<div class="clear"></div>

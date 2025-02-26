@@ -1,0 +1,51 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2019-12-04T17:38:11+0100",
+  "subscription": {
+    "id": "5de7e0f3f8956d1ca1cf7f18",
+    "active": true,
+    "status": "CREATED",
+    "total_payment_number": 3,
+    "total_payment_charged": 0,
+    "payment_attempts_limit": 3,
+    "first_charge_date": "2019-12-16 00:00:00",
+    "next_charge_date": "2019-12-16 00:00:00",
+    "additional_data": "{\"operative\":\"AUTHORIZATION\",\"source_uuid\":\"24ABB0C6-8A8F-4ED8-BF72-2FB0D65ABD78\",\"customer_ext_id\":\"customer name\",\"service\":\"60A1F4C0-CC58-47A9-A0B9-868F9EF29045\",\"url_post\":\"https:\\/\\/yourdomain.com\\/subscriptions\\/notify\"}",
+    "created_at": "2019-12-04 17:38:11",
+    "updated_at": "2019-12-04 17:38:11",
+    "plan": {
+      "name": "Real plan name",
+      "external_id": "plan",
+      "interval": 1,
+      "interval_type": "MONTHLY",
+      "amount": 499,
+      "trial_available": true,
+      "interval_offset": 1,
+      "interval_offset_type": "WEEKLY",
+      "created_at": "2019-12-04 17:38:08",
+      "updated_at": "2019-12-04 17:38:08",
+      "product": {
+        "name": "Real product",
+        "external_id": "product",
+        "sandbox": false,
+        "notification_url": "https://yourdomain.com/subscriptions/notify",
+        "created_at": "2019-12-04 15:29:10",
+        "updated_at": "2019-12-04 15:29:10"
+      }
+    },
+    "payments": [
+      {
+        "id": "5e53b9c5af035032bbd09e8a",
+        "status": "CREATED",
+        "payment_date": "2019-12-16",
+        "payment_number": 1,
+        "attempt": 1,
+        "amount": 499,
+        "payment_details": null,
+        "created_at": "2019-12-16 00:00:00",
+        "updated_at": "2019-12-16 00:00:00"
+      }
+    ]
+  }
+}

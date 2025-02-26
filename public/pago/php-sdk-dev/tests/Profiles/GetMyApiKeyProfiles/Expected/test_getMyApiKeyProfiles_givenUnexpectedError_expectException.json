@@ -1,0 +1,5 @@
+{
+  "message": "Bad request",
+  "code": 400,
+  "details": "Some parameter is missing."
+}

@@ -1,0 +1,17 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2020-02-24T10:25:50+0100",
+  "products": [
+    {
+      "serviceCode": "MTR",
+      "originCountryCode": "ESP",
+      "originCurrencyCode": "EUR",
+      "destinationCountryCode": "ARG",
+      "destinationCurrencyCode": "USD",
+      "paymentTypeCode": "CSA",
+      "directedTransactionCode": "RDR",
+      "electronicFundsCode": "NEF"
+    }
+  ]
+}

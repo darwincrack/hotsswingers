@@ -1,0 +1,19 @@
+
+<button type="button" class="btn btn-primary btn-block"
+  ng-click="sendCallRequest()"
+  ng-if="modelId !== userLogin && !userStreaming" ng-cloak>{{Sendvideocallrequest}}</button>
+
+
+
+
+<button type="button" class="btn btn-primary btn-block"
+  ng-click="acceptRequest()"
+  ng-if="modelId == userLogin && !modelStreaming && streamingInfo.hasRoom" ng-cloak> {{Acceptvideocallrequest}}</button>
+
+<button class="btn btn-danger btn-block" ng-if="userStreaming || modelStreaming" ng-click="stopStreaming()" ng-cloak style="width: 85%; display: table-caption;">{{Stopstreaming}} </button>
+
+<span class="mic" ng-click="micprivate()" ng-if="userStreaming || modelStreaming" style="margin-left:20px;"><i class="fa " ng-class="{'fa-microphone': micOnprivate, 'fa-microphone-slash': !micOnprivate}" title=""></i></span>
+
+
+
+<div id="private-videos-container" ng-show="userStreaming || modelStreaming"></div>

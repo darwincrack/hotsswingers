@@ -1,0 +1,19 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2020-02-21T14:55:16+0100",
+  "payment_types": [
+    {
+      "pay_agent_cd": "001",
+      "payment_type_cd": "ACC",
+      "dest_country_cd": "BRA",
+      "dest_currency_cd": "BRL"
+    },
+    {
+      "pay_agent_cd": "003",
+      "payment_type_cd": "ACC",
+      "dest_country_cd": "BRA",
+      "dest_currency_cd": "BRL"
+    }
+  ]
+}

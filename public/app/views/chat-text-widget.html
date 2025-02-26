@@ -1,0 +1,174 @@
+<style>
+  
+  .noty-pill{
+   text-transform: uppercase;
+    background-color: #DE001A;
+    color: #fff;
+    font-size: 9px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    display: inline-block;
+    white-space: nowrap;
+    -webkit-align-self: center;
+    -moz-align-self: center;
+    align-self: center;
+    -ms-flex-item-align: center;
+    margin-right: 4px;
+    
+    -webkit-font-smoothing: subpixel-antialiased;
+    vertical-align: middle;
+    padding: 0 7px;
+    border-radius: 200px;
+    
+}
+
+.goalInfo{
+        color: #DE001A;
+    font-weight: bold;
+    padding: 2px;
+    
+}
+
+
+q.goalInfo-txt.atv_info_goal{
+    font-weight: normal;
+    display: block;
+    
+}
+
+.atv_game_totalcoins{
+    
+    text-decoration: none;
+}
+    
+.multiretos-chat {
+    background: #d8f8d2;
+    color: black;
+}
+
+.lovense-chat .icon-coin, .multiretos-chat .icon-coin{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/coin.svg);
+    margin-left: 3px;
+    display: inline-block;
+}
+
+.chat-multiretos{
+
+margin: 5px;
+    border: 1px solid #9a1818;
+    border-radius: 5px;
+    background: #ff00000f;
+
+}
+
+.multiretos-chat i.fa.fa-trash.cursor {
+    display: none;
+}
+
+
+.goal.doneGoal .noty-pill {
+    color: white;
+    background-color: green;
+}
+
+
+.goal.doneGoal .atv_game_totalcoins{
+    color: green;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+
+.goal.doneGoal q.goalInfo-txt.atv_info_goal {
+    font-weight: normal;
+    display: block;
+    text-decoration: line-through;
+    color:green;
+}
+
+
+span.txt__content.atv_msg_contentdoneGoal {
+    color: green;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+
+</style>
+
+<div class="tab-border">
+  <button class="btn btn-danger reset-message-btn" ng-click="resetMessage()" ng-show="isShowResetMessage && chatType === 'public'">{{ResetMessages}}</button>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a ng-click="changeTab('chats')" aria-controls="chat" role="tab" data-toggle="tab">Chat</a></li>
+    <li role="presentation" ng-show="chatType != 'private'"><a ng-click="changeTab('users')" aria-controls="users" role="tab" data-toggle="tab">{{Users}}({{members.length}})</a></li>
+    <li role="presentation" ng-show="isShowPrivateRequest" ><a ng-click="changeTab('privateChat')" area-controls="privateChat" role="tab" data-toggle="tab" ng-class="{'hightLighTab': hightLighTab === true}">{{PrivateChat}} (<span id="private-amount">{{videoRequests.length}}</span>)</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+
+  <div class="tab-content" >
+
+    <div role="tabpanel" class="tab-pane" ng-class="{'active': chatPanel == 'chats'}" m-chat-scroll>
+
+        <div class="row chat-multiretos" ng-show="progressMultiretos">
+            <div class="col-md-3">
+              <span><i id="acumulado">{{Multiretoacumulado}}</i>/<i id="goal">{{Multiretogoal}}</i></span><br>
+              <progress class="progressMultireto" id="progressMultireto" value="{{Multiretoacumulado}}" max="{{Multiretogoal}}" style="width: 75%;" ></progress>
+            </div>
+
+             <div class="col-md-9" style="    padding: 10px; font-weight: bold; color: #9a1818;">
+              Desafio #<i id="multiretonumero"> {{Multiretonumero}}</i>:  <i id="multiretotexto"> "{{Multiretotext}}"</i>
+
+
+            </div>
+
+           <a style="    text-decoration: underline;" ng-show="finalizarBtnMr" ng-click="btnFinalizarMultireto()">Finalizar todos los desafios</a>
+        </div>
+
+        <ul class="list-chat">
+          <li class="text-center"><a ng-show="enableLoadMore" ng-click="loadPreviousMessage()">{{Showpreviousmessage}}</a>
+            <div ng-show="showLoading"><i class="fa fa-refresh fa-spin fa-3x fa-fw margin-bottom"></i>
+  <span class="sr-only">{{loading}}</span></div>
+          </li>
+          <li ng-repeat="(key, msg) in chatMessages | orderBy: 'chatId'" ng-show="msg != null" ng-class="{'tip-chat': msg.tip == 'yes', 'lovense-chat': msg.toys, 'multiretos-chat' :  msg.tip == 'mr', 'multireto-chat': msg.toys } ">
+            <strong ng-class="{'model': modelId==msg.userId, 'banned': msg.banStatus == 'yes'}">
+            {{msg| chatUsername}} : {{toys}} 
+         
+           </strong> <span ng-bind-html="msg.text | convertIcon"></span> <span ng-show="!msg.toys"><i ng-show="isShowRemoveMessage" class="fa fa-trash cursor" title="{{Deletethismessage}}" ng-click="removeMessage(msg.id)"></i><span>
+          </li>
+        </ul>
+        <div class="box-chat">
+            <div class="chat-mes">
+                <input type="text" autocomplete="off" ng-keyup="send($event)" emoji-input ng-model="data.text" name="message" class="form-control input-lg" placeholder="{{Typeamessagehere}}"/>
+            </div>
+            <button  class="btn btn-lg btn-danger" id="send-message" ng-click="send()">{{SEND}}</button>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" ng-class="{'active': chatPanel == 'users'}" ng-show="chatType != 'private'">
+      <ul class="list-user list-user-public">
+        <li ng-repeat="member in members | unique: 'id'" id="user-{{member.id}}" ng-if="member.role !== 'guest'">
+            <span ng-show="chatType != 'group' || modelId != memberId">{{member| chatUsername}} </span>
+            <span ng-show="chatType == 'group' && modelId==memberId">{{member| chatUsername}}: {{member.spendTokens | round }} tokens/ {{member.time | minutePlural}}</span>
+        </li>
+        <li ng-show="guests.length">
+          <span>+ <% guests.length %> anonymous users</span>
+        </li>
+        <li ng-show="!members.length">
+          <span>{{Therearenomemberonline}}</span>
+        </li>
+      </ul>
+    </div>
+    <div role="tabpanel" class="tab-pane tab-primary" ng-class="{'active': chatPanel=='privateChat'}">
+        <ul class="list-user">
+          <li ng-repeat="request in videoRequests" ng-attr-id="{{'private-'+request.id}}">
+              <img ng-src="{{request.avatar| avatar}}"> <a ng-href="<% request . requestUrl %>"><% request . username %> <i>({{ request.tokens | decimal: 2 }} tokens)</i></a> 
+          </li>
+        </ul>
+    </div>
+  </div>
+</div>

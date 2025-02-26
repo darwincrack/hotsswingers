@@ -1,0 +1,13 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2019-05-30T12:55:48+0200",
+  "profiles": [
+    "payment",
+    "readonly",
+    "tokenize",
+    "batch",
+    "keyentry"
+  ],
+  "is_pci": true
+}

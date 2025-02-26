@@ -1,0 +1,17 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2020-02-24T10:08:02+0100",
+  "states": [
+    {
+      "state_sd": "NOT SET",
+      "state_cd": "999",
+      "country_cd": "MEX"
+    },
+    {
+      "state_sd": "AGUASCALIENTES",
+      "state_cd": "AGS",
+      "country_cd": "MEX"
+    }
+  ]
+}

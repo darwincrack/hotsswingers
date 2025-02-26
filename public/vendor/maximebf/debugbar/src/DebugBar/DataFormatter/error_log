@@ -1,0 +1,31 @@
+[06-Sep-2020 13:34:59 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataFormatter\DataFormatterInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php on line 16
+[09-Sep-2020 17:27:30 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataFormatter\DataFormatterInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php on line 16
+[10-Oct-2020 21:34:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Oct-2020 04:09:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Oct-2020 04:09:02 UTC] PHP Fatal error:  Interface 'DebugBar\DataFormatter\DataFormatterInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php on line 16
+[25-Jan-2021 14:03:56 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataFormatter\DataFormatterInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php on line 16
+[14-Jan-2022 08:21:47 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataFormatter\DataFormatterInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php on line 16
+[02-Feb-2022 06:05:21 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataFormatter\DataFormatterInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php on line 16
+[04-Feb-2022 18:24:38 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataFormatter\DataFormatterInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php on line 16
+[06-Feb-2022 20:16:18 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataFormatter\DataFormatterInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatter.php on line 16

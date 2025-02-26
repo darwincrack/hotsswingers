@@ -1,0 +1,37 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2017-01-12T09:12:58+0100",
+  "cards": [
+    {
+      "object": "CARD",
+      "bank": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A.",
+      "uuid": "90F358C9-7D3F-4334-A60D-1717CC1FBF5B",
+      "type": "C",
+      "brand": "VISA",
+      "country": "724",
+      "holder": "Test user",
+      "bin": "454881",
+      "last4": "0004",
+      "expire_month": "12",
+      "expire_year": "21",
+      "token": "ebc9b5ffa2efcf74197734a071192817e6f2a3fc15f49c4b1bdb6edc46b16e3ab4109498bff8e6ba00fb6d2bd1838afbea67095c4caaa2f46e4acf4d5851884c",
+      "additional": null
+    },
+    {
+      "object": "CARD",
+      "uuid": "0FDE261B-0E76-499D-A394-B6DCF6C03C56",
+      "type": "C",
+      "token": "ad49b5b1a2efcf74197734a071192817e6f2a3fc15f49c4b1bdb6edc46b16e3ab4109498bff8e6ba00fb6d2bd1838afbea67095c4caaa2f46e4acf4d58516cba",
+      "brand": "MASTERCARD",
+      "country": "724",
+      "holder": "Test user",
+      "bin": "533821",
+      "last4": "0004",
+      "expire_month": "04",
+      "expire_year": "23",
+      "bank": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A.",
+      "additional": null
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[06-Sep-2020 21:12:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php on line 28
+[06-Sep-2020 21:14:28 UTC] PHP Fatal error:  Uncaught Error: Interface 'Twig_TemplateInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php on line 19
+[06-Sep-2020 21:18:11 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php on line 30
+[12-Sep-2020 02:18:15 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php on line 30
+[12-Sep-2020 02:19:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php on line 28
+[12-Sep-2020 02:21:16 UTC] PHP Fatal error:  Uncaught Error: Interface 'Twig_TemplateInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php on line 19
+[16-Oct-2020 16:48:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Oct-2020 16:48:55 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php on line 30
+[16-Oct-2020 17:32:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Oct-2020 17:32:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php on line 28
+[27-Oct-2020 17:31:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[27-Oct-2020 17:31:41 UTC] PHP Fatal error:  Interface 'Twig_TemplateInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php on line 19
+[20-Jan-2021 05:51:07 UTC] PHP Fatal error:  Uncaught Error: Interface 'Twig_TemplateInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php on line 19
+[20-Jan-2021 05:51:08 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php on line 30
+[20-Jan-2021 05:54:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php on line 28
+[21-Mar-2021 06:17:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Twig_TemplateInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php on line 19
+[21-Mar-2021 06:19:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php on line 28
+[21-Mar-2021 06:22:19 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php on line 30
+[20-May-2021 14:41:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php on line 28
+[20-May-2021 14:42:24 UTC] PHP Fatal error:  Uncaught Error: Interface 'Twig_TemplateInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php on line 19
+[22-May-2021 03:07:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php on line 28
+[26-May-2021 14:35:51 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php on line 30
+[12-Jan-2022 00:56:27 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php on line 30
+[12-Jan-2022 02:56:27 UTC] PHP Fatal error:  Uncaught Error: Interface 'Twig_TemplateInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php on line 19
+[12-Jan-2022 04:26:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigEnvironment.php on line 28
+[19-Jan-2022 14:13:56 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TwigCollector.php on line 30
+[19-Jan-2022 14:40:59 UTC] PHP Fatal error:  Uncaught Error: Interface 'Twig_TemplateInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/Bridge/Twig/TraceableTwigTemplate.php on line 19

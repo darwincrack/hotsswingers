@@ -1,0 +1,11 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2017-10-26T17:28:06+0200",
+  "errors": [
+    {
+      "line": 13,
+      "msg": "Invalid card"
+    }
+  ]
+}

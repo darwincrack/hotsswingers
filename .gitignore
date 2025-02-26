@@ -1,0 +1,41 @@
+/vendor/
+node_modules/
+pm2/
+xcams-v2-nodejs/
+npm-debug.log
+yarn-error.log
+bootstrap/compiled.php
+app/storage/
+public/storage
+public/hot
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+
+public/blog
+public/uploads
+public/.well-known/
+
+
+#ossn specific
+
+#do not push settings files
+/configurations/ossn.config.db.php
+/configurations/ossn.config.site.php
+
+#do not include following files
+public/dashboard/cache
+public/dashboard/installation/INSTALLED
+public/dashboard/.htaccess
+public/dashboard/Thumbs.db
+public/dashboard/Desktop.ini
+public/dashboard/DISPLAY_ERRORS
+public/dashboard/error_log
+ossn_data/

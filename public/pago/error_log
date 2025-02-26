@@ -1,0 +1,122 @@
+[17-Mar-2021 17:38:25 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:91
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 91
+[17-Mar-2021 17:46:12 UTC] PHP Warning:  Illegal string offset 'code' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:46:12 UTC] PHP Warning:  Illegal string offset 'code' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:46:46 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:46:46 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:47:12 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:47:12 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:47:12 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/webcam/public_html/public/pago/generar.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:47:28 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:47:28 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:47:28 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/webcam/public_html/public/pago/generar.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:48:58 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:48:58 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:48:58 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/webcam/public_html/public/pago/generar.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 96
+[17-Mar-2021 17:49:31 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 99
+[17-Mar-2021 17:49:31 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 99
+[17-Mar-2021 17:49:31 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/webcam/public_html/public/pago/generar.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 99
+[17-Mar-2021 17:51:32 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 99
+[17-Mar-2021 17:51:32 UTC] PHP Warning:  Illegal string offset 'current_time' in /home/webcam/public_html/public/pago/generar.php on line 99
+[17-Mar-2021 17:52:12 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 101
+[17-Mar-2021 17:52:12 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 101
+[17-Mar-2021 17:55:26 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 101
+[17-Mar-2021 17:55:26 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 101
+[17-Mar-2021 17:56:00 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 101
+[17-Mar-2021 17:56:00 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 101
+[17-Mar-2021 17:57:22 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 101
+[17-Mar-2021 17:57:22 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 101
+[17-Mar-2021 17:58:07 UTC] PHP Parse error:  syntax error, unexpected 'message' (T_STRING) in /home/webcam/public_html/public/pago/generar.php on line 88
+[17-Mar-2021 17:58:19 UTC] PHP Parse error:  syntax error, unexpected 'message' (T_STRING) in /home/webcam/public_html/public/pago/generar.php on line 88
+[17-Mar-2021 17:58:22 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 17:58:22 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 17:58:25 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 17:58:25 UTC] PHP Warning:  Illegal string offset 'message' in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:02:24 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:02:48 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:02:52 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:03:58 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/webcam/public_html/public/pago/generar.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 98
+[17-Mar-2021 18:04:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/webcam/public_html/public/pago/generar.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 98
+[17-Mar-2021 18:04:30 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/webcam/public_html/public/pago/generar.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 98
+[17-Mar-2021 18:04:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/webcam/public_html/public/pago/generar.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 98
+[17-Mar-2021 18:04:57 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:103
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 103
+[17-Mar-2021 18:05:14 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:05:16 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:05:32 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:05:57 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:05:58 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:06:14 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:06:16 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:06:28 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:06:30 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/webcam/public_html/public/pago/generar.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/pago/generar.php on line 102
+[17-Mar-2021 18:13:18 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/webcam/public_html/public/pago/generar.php on line 48
+[17-Mar-2021 18:13:27 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/webcam/public_html/public/pago/generar.php on line 48
+[18-Mar-2021 03:11:29 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/webcam/public_html/public/pago/result.php on line 10
+[18-Mar-2021 03:13:51 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/webcam/public_html/public/pago/result.php on line 10
+[18-Mar-2021 03:15:31 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/webcam/public_html/public/pago/result.php on line 10
+[18-Mar-2021 03:21:01 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in /home/webcam/public_html/public/pago/result.php on line 17

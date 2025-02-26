@@ -1,0 +1,19 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2019-11-19T16:54:54+0100",
+  "customer": {
+    "external_id": "12345678A"
+  },
+  "customer_address": {
+    "uuid": "B7B20B82-0112-464F-BE0F-2905BA84CDED",
+    "address1": "Ronda",
+    "address2": "Magdalena",
+    "address3": "número 20",
+    "city": "Castellón",
+    "state_code": "Castellón",
+    "country": "ESP",
+    "zip_code": "12006",
+    "default": true
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2020-03-11 12:00:00",
+  "order": {
+    "uuid": "6048FBA6-A280-4660-9746-9E5AD17EA6BA",
+    "created": "2019-05-02T11:46:31+0200",
+    "created_from_client_timezone": "2019-05-02T11:46:31+0200",
+    "amount": 1200,
+    "currency": "978",
+    "paid": true,
+    "safe": false,
+    "refunded": 200,
+    "additional": "",
+    "service": "REDSYS",
+    "customer": "73628819B",
+    "status": "PARTIALLY_REFUNDED",
+    "transactions": [
+      {
+        "uuid": "2452A605-32CD-4FCF-B1E8-C732A8C98F9F",
+        "created": "2016-06-01T08:30:01.620Z",
+        "created_from_client_timezone": "2019-05-02T08:30:01+0200",
+        "operative": "AUTHORIZATION",
+        "amount": 1200,
+        "authorization": "7654",
+        "status": "SUCCESS",
+        "error": "NONE",
+        "source": {
+          "uuid": "3351260A-11AC-454EA-C732A8C98F9F",
+          "object": "CARD",
+          "type": "C",
+          "token": "c734c643edfdccf3555a157fbf7ccb08006fbb1f",
+          "brand": "VISA",
+          "country": "ES",
+          "holder": "TITULAR DE PRUEBAS",
+          "bin": "405282",
+          "last4": "1011",
+          "prepaid": "",
+          "expire_month": "09",
+          "expire_year": "16",
+          "additional": null,
+          "bank": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A."
+        }
+      },
+      {
+        "uuid": "21C28F2C-BF9C-424A-91C5-7D19A48E50DB",
+        "created": "2016-06-02T06:41:01.620Z",
+        "created_from_client_timezone": "2016-06-02T06:41:01+0200",
+        "operative": "CONFIRMATION",
+        "amount": 1200,
+        "authorization": "7723",
+        "error": "NONE",
+        "source": {
+          "uuid": "ABAB111A-CCCC-AAE3-C222A81EC8F9F",
+          "object": "CARD",
+          "type": "C",
+          "token": "c734c643edfdccf3555a157fbf7ccb08006fbb1f",
+          "brand": "VISA",
+          "country": "ES",
+          "holder": "TITULAR DE PRUEBAS",
+          "bin": "405282",
+          "last4": "1011",
+          "prepaid": "",
+          "expire_month": "09",
+          "expire_year": "16",
+          "additional": null,
+          "bank": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A."
+        },
+        "status": "SUCCESS",
+        "antifraud": null
+      },
+      {
+        "uuid": "9F9C4A90-7920-4E5A-B883-3F649883EC7C",
+        "created": "2016-06-02T12:28:01.620Z",
+        "created_from_client_timezone": "2016-06-02T12:28:01+0200",
+        "operative": "REFUND",
+        "amount": 200,
+        "authorization": "4321",
+        "error": "NONE",
+        "source": {
+          "object": "CARD",
+          "uuid": "ABAB111A-CCCC-AAE3-C222A81EC8F9F",
+          "type": "C",
+          "token": "c734c643edfdccf3555a157fbf7ccb08006fbb1f",
+          "brand": "VISA",
+          "country": "ES",
+          "holder": "TITULAR DE PRUEBAS",
+          "bin": "405282",
+          "last4": "1011",
+          "prepaid": "",
+          "expire_month": "09",
+          "expire_year": "16",
+          "additional": null,
+          "bank": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A."
+        },
+        "status": "SUCCESS",
+        "antifraud": null
+      }
+    ],
+    "token": "66f8c4bbfff15d006f253e34a8d9611a",
+    "ip": "43.12.121.88"
+  },
+  "client": {
+    "uuid": "412431F0-F23F-16BA-A854-BD01E8593E2E"
+  },
+  "extra_data": {
+    "payment": {
+      "installments": 3
+    }
+  }
+}

@@ -1,0 +1,460 @@
+<div class="tab-border">
+   <!-- Nav tabs -->
+   <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a ng-click="changeTab('juegos')" aria-controls="chat" role="tab" data-toggle="tab">{{juegos}}</a></li>
+   </ul>
+   <!-- Tab panes -->
+   <div class="tab-content" style="padding: 20px 25px;">
+      <div role="tabpanel" class="tab-pane" ng-class="{'active': chatPanel == 'juegos'}">
+         <h2>{{juegos}}</h2>
+         <div class="sin-emision" ng-show="!isStreaming" >
+            <p>{{comienzaemitir}}</p>
+         </div>
+         <div class="con-emision" ng-class="{'hidden': !isStreaming || windowsgame || windowsgameMr}">
+            <div class="row">
+               <div class="col-md-4 col-sm-12 game-item atv_list_game_item_container atv_icon-lush" ng-class="activeJugando">
+                  <div class="game-item__container">
+                     <div class="game-item__title atv_game_title">VibraLush</div>
+                     <div class="game-item__separator"><span><i class="icon-lovense-toy-big"  style="margin-right: 0"></i></span></div>
+                     <div class="game-item__description atv_game_description">{{vincula}}</div>
+                  </div>
+
+               <div >
+
+                  <div class="btn game-item__button atv_start_game_button" ng-click="openwindowsgame(true)" ng-class="{'hidden': jugandoBtn}">{{jugar}}</div>
+                  <span class="text-center" ng-show="loadingOpenwindows">Cargando <i class="fa fa-spinner fa-spin" ></i> </span>
+                  <div class="game-item__status " ng-class="{'hidden': !jugandoBtn}">{{jugando}}</div>
+               </div>
+
+
+               </div>
+               <div class="col-md-4 col-sm-12 game-item atv_list_game_item_container atv_icon-lush" ng-class="activeJugandoMr">
+                  <div class="game-item__container">
+                     <div class="game-item__title atv_game_title">Desafios</div>
+                     <div class="game-item__separator"><span><i class="icon-lovense-toy-big multireto"  style="margin-right: 0"></i></span></div>
+                     <div class="game-item__description atv_game_description">Elige los desafios que quieras realizar y pon un objetivo en cada uno.</div>
+                  </div>
+
+
+                  <div >
+                      <div class="btn game-item__button atv_start_game_button" ng-click="openwindowsgameMr(true)" ng-class="{'hidden': jugandoBtnMr}">{{jugar}}</div>
+                                    <span class="text-center" ng-show="loadingOpenwindows">Cargando <i class="fa fa-spinner fa-spin" ></i> </span>
+                                    <div class="game-item__status " ng-class="{'hidden': !jugandoBtnMr}">{{jugando}}</div>
+
+
+                  </div>
+
+                 
+               </div>
+            </div>
+         </div>
+         <!--  ng-show="windowsgame"-->
+         <div class="game-configuration" ng-show="windowsgame">
+            <h3>Vibralush</h3>
+            <form class="form-horizontal" ng-submit="guardarJuegos(form)" name="form">
+               <div class="form-group">
+                  <label class="col-sm-12">Topic para el VibraLush:</label>
+                  <div class="col-sm-8">
+                     <textarea class="form-control" id="topic" name="topic" placeholder="Ej: Lush a tope en el trabajo!!"  ng-model="topic" ng-required="true"></textarea>
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label class="col-sm-12 ">Vibración 1:</label>
+                  <div class="col-sm-2">
+                     <input type="number" class="form-control" id="level1value" name="level1value" min="100"  ng-model="level1value" ng-required="true">
+                  </div>
+                  <div class="col-sm-6">
+                     <input type="text" class="form-control" id="level1" name="level1"  value="mmmm..." ng-model="level1" ng-required="true">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label class="col-sm-12 ">Vibración 2:</label>
+                  <div class="col-sm-2">
+                     <input type="number" class="form-control" id="level2value" name="level2value"  min="100" value="200" ng-model="level2value" ng-required="true">
+                  </div>
+                  <div class="col-sm-6">
+                     <input type="text" class="form-control" id="level2" name="level2"  value="¡Oh! Qué gustito" ng-model="level2" ng-required="true">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label class="col-sm-12 ">Vibración 3:</label>
+                  <div class="col-sm-2">
+                     <input type="number" class="form-control" id="level3value" name="level3value"  min="100" value="500" ng-model="level3value" ng-required="true">
+                  </div>
+                  <div class="col-sm-6">
+                     <input type="text" class="form-control" id="level3" name="level3" value="¡UFFFF que no aguanto!" ng-model="level3" ng-required="true">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label class="col-sm-12 ">Vibración 4:</label>
+                  <div class="col-sm-2">
+                     <input type="number" class="form-control" id="level4value" name="level4value"  min="100" value="1000" ng-model="level4value" ng-required="true">
+                  </div>
+                  <div class="col-sm-6">
+                     <input type="text" class="form-control" id="level4" name="level4" value="¡¡me muero de PLACEEEEER!!" ng-model="level4" ng-required="true">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label class="col-sm-12 ">Conecta tus juguetes:</label>
+                  <div class="row" style="margin-left: 0">
+                     <div class="col-sm-4">
+                        <div class="lovense__option">
+                           <div class="option__content">
+                              <p class="option__title">Lovense</p>
+                              <p class="option__description">Utiliza la app Lovense Connect para conectar tu juguete Lovense, luego haz clic en "Buscar juguetes Lovense". <a href="" rel="noopener nofollow" target="_blank">Saber más</a></p>
+                           </div>
+                           <div class="option__action">
+                              <a class="atv_toy_toystatuscontainerbeta_lovense option__link" ng-click="getToys()"">Buscar juguetes Lovense</a>
+                              <div class="atv_toy_toystatuscontainerbeta_spinnerlovense toystatus__info loading__img hideMe"><i class="spinner icon ss-loading"></i></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label class="col-sm-12 ">Lista de juguetes:</label>
+                  <div class="col-sm-8">
+                     <hr>
+                  </div>
+                  <div class="col-sm-12">
+                     <div class="list-juguetes">
+                        <p ng-show="loading">Cargando <i class="fa fa-spinner fa-spin" ></i></p>
+                        <p ng-show="messageText">No hay ningún juguete vinculado, usa el enlace de buscar.</p>
+                        <p ng-show="messageToy">No se han detectado dispositivos.</p>
+                        <div class="list-juguetes-item">
+                           <!-- <table style=" width: 50%;">
+                              <tr ng-repeat="lovense in lovenses">
+                                 <td>  
+                                  <input type="checkbox" name="diviceconnect" id="diviceconnect" ng-model="lovense.diviceconnect"> 
+                                </td>
+                                 <td>{{lovense.nombre}} </td>
+                                 <td ng-click="testLovense(lovense.id)" class="lovense-test"> Test </td>
+                              </tr>
+                              
+                              </table>-->
+                           <table style=" width: 50%;">
+                              <tr ng-repeat="item in items">
+                                 <td>  
+                                    <input type="checkbox" ng-model="toys[item.domain]" ng-required="$first">
+                                 </td>
+                                 <td ng-repeat="i in item.toys">
+                                    <p>  <% (i.name == '' ) ? 'Lovense' : i.name %></p>
+                                 </td>
+                                 <td ng-repeat="i in item.toys">
+                                    <div ng-if="i.status"><i class="fa fa-star" style="color: green" title="Conectado"></i></div>
+                                    <div ng-if="!i.status"><i class="fa fa-star" style="color: red"  title="Desconectado"></i></div>
+                                 </td>
+                                 <td>
+                                    <span class="lovense-test" ng-click="testLovense(item)" title="hacer vibra el dispositivo">Test</span> 
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                        <!-- <div>Dispositivo encontrado</div>-->
+                     </div>
+                     <hr>
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="col-sm-2">
+                     <button type="submit" class="btn btn-success btn-lg" style="width: 100%" >Iniciar juego</button>
+                  </div>
+                  <div class="col-sm-3">
+                     <button type="button" class="btn btn-default btn-lg" ng-click="openwindowsgame(false)">Cancelar</button>
+                  </div>
+               </div>
+            </form>
+         </div>
+
+
+<!--multireto -->
+
+
+
+
+<style>
+   
+
+
+.mutiRow__container {
+    max-width: 450px;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 2px 0;
+}
+
+
+.inputMulti1 {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+}
+
+.inputMulti1 label{
+    background-color: #5A5A5A;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 11px;
+    display: inline-block;
+    width: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+    
+}
+
+
+.mutiRow__container input[type="number"] {
+    max-width: 210px;
+    
+    display: inline-block;
+    width: calc(100% - 22px);
+    text-align: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0.3em;
+    color: #484848;
+    margin-bottom: 0 !important;
+    outline: none;
+}
+
+
+.inputMulti2 {
+    width: 74%;
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+}
+
+
+.inputMulti2 label{
+    display: none;
+    
+}
+
+.inputMulti2 input{
+    
+     color: #000;
+    display: inline-block;
+    width: calc(100% - 20px);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0.3em;
+    color: #484848;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0 !important;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+
+a.deleteInput{
+        width: 17px;
+    height: 17px;
+    padding: 4px;
+    font-size: 11px;
+    top: 5px;
+    
+        background-color: #cc3300;
+    position: absolute;
+    right: 0;
+    top: 3px;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    align-content: center;
+    -ms-flex-line-pack: center;
+    -webkit-align-self: center;
+    -moz-align-self: center;
+    align-self: center;
+    -ms-flex-item-align: center;
+    
+}
+
+.game-configuration a.deleteInput i {
+        color: #fff;
+    font-size: 0.9em;
+    margin: auto;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+</style>
+         <div class="game-configuration" ng-show="windowsgameMr">
+            <h3>Desafios</h3>
+
+          
+            <form class="form-horizontal" name="formMultireto" ng-submit="guardarJuegosMr(formMultireto)">
+      
+
+
+            <div class="row">
+               <div class="col-md-6">
+                
+                    <div class="form-group">
+                                    <label class="col-sm-12 ">Describe tu desafio:</label>
+                                    <div class="col-sm-12">
+                                       <input type="text" class="form-control" min="3"   maxlength="140" ng-model="input_titulo_value" placeholder="Ej. ¿Me desnudo mientras bailo?">
+                                    </div>
+                                    
+                                 </div>
+
+
+
+                    <div class="form-group">
+                                    <label class="col-sm-12 ">Objetivo de monedas:</label>
+                                    <div class="col-sm-6">
+                                       <input type="number" class="form-control"   ng-model="input_goal_value"  placeholder="Ej: 1.000" min="100" max="999999">
+                                    </div>
+                                    
+                                 </div>
+
+               </div>
+
+                <div class="col-md-6">
+
+
+
+                     <div class="panel-multirows atv_multirows">
+
+                        <h5 class="showOnlyonAlpha">Desafios creados:</h5>
+
+
+                           <div ng-repeat='task in taskList track by $index'>
+
+
+                                    <div class="mutiRow__container atv_multiRow_1">
+                                         <ins class="inputMulti1"><label for="input_goal_{{$index + 1}}_value_id">{{$index + 1}}</label><input id="input_goal_{{$index + 1}}_value_id" type="number" value = "{{task.goal}}" name="Mrgoalvalue[]" placeholder="Ej: 1.000"  min="100" max="999999" required="required" ></ins>
+                                     
+                                         <ins class="inputMulti2">
+                                                <label for="input_text_{{$index + 1}}_id">{{$index + 1}}</label>
+                                                <input id="input_text_{{$index + 1}}_id"   type="text" value = "{{task.task}}" name="Mrtitulovalue[]" placeholder="Ej. ¿Me desnudo mientras bailo?"  min="3" maxlength="140" required="required">
+                                               <a href="#1" class="deleteInput" ng-click="DeleteMultireto()">
+                                                <i class="icon fa fa-trash"></i>
+                                             </a>
+                                          </ins>
+                                    </div>
+
+   
+
+
+                           </div>
+
+                            
+
+                     </div>
+
+               </div>
+
+            </div>
+
+             
+
+            <div class="row" style="    margin-bottom: 28px;
+                border-bottom: 1px solid #CCCCCC;
+                padding-bottom: 20px;">
+               
+               <div class="col-sm-2">
+                  <a  class="btn btn-danger btn-lg" style="width: 100%" ng-click="addMultireto(); $event.stopPropagation();" style="font-size: 17px;">Añadir desafio</a>
+               </div>
+                              
+            </div>
+
+
+
+
+
+
+               <div class="form-group">
+                  <div class="col-sm-2">
+                     <button type="submit" class="btn btn-success btn-lg" style="width: 100%" >Iniciar juego</button>
+                  </div>
+                  <div class="col-sm-3">
+                     <button type="submit" class="btn btn-default btn-lg" ng-click="openwindowsgameMr(false)">Cancelar</button>
+                  </div>
+               </div>
+            </form>
+         </div>
+
+<!--multireto-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <div class="profile__games">
+            <h2 class="games__title">Juegos Recientes</h2>
+            <p ng-show="loadingJuegos">Cargando... <i class="fa fa-spinner fa-spin" ></i></p>
+            <div  ng-show="messageJuegos">
+               <p>No hay juegos recientes</p>
+            </div>
+            <div class="propositionlist" ng-repeat="itemsAllGame in itemsAllGames">
+               <div class="games games--inactive">
+                  <div class="games__inner panelmain_inner"  >
+                     <p class="author atv_pastGame_timeAgo">
+                        <span class="theme__general__accent-text-color"><i class="icon-coin"></i>
+                        <ins class="atv_pastGame_title">VibraLush</ins>
+                        </span>&nbsp;<ins class="atv_pastGame_ago_date">{{itemsAllGame.gamescreatedAt | timeago:'es' }}</ins>,&nbsp;<span>{{itemsAllGame.username}}</span>:
+                     </p>
+                     <p><q class="atv_pastGame_text">{{itemsAllGame.topic}}</q></p>
+                     {{Users}}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

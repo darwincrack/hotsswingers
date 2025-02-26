@@ -1,0 +1,9 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2017-01-12T09:12:58+0100",
+  "Customer": {
+    "external_id": "customer15487",
+    "token": "55189www42efe21cc9ddad08bae7ae653b566a4142f0eb7c92487cab484fcfff249644f2f2f1b9f6b2e702a7e435e43c2c5d11f2fe68df014bd23d9e99a879afb"
+  }
+}

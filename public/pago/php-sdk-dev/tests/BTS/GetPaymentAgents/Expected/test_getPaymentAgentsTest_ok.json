@@ -1,0 +1,19 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2020-02-24T09:23:11+0100",
+  "paymentAgents": [
+    {
+      "code": "001",
+      "description": "AGNT 1"
+    },
+    {
+      "code": "003",
+      "description": "A3"
+    },
+    {
+      "code": "VWB",
+      "description": "NAME VWB"
+    }
+  ]
+}

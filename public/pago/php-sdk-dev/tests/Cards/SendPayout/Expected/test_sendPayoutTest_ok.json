@@ -1,0 +1,57 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2017-01-12T09:12:58+0100",
+  "order": {
+    "uuid": "114A527E-65C7-4720-99F6-DF635A4975E0",
+    "created": "2017-01-11T15:50:16+0100",
+    "created_from_client_timezone": "2017-01-11T15:50:16+0100",
+    "amount": 111,
+    "currency": "484",
+    "paid": true,
+    "safe": false,
+    "refunded": 0,
+    "additional": "",
+    "service": "REDSYS",
+    "customer": null,
+    "status": "PAID",
+    "transactions": [
+      {
+        "uuid": "A714DC03-70F6-4F71-AFB8-5E99B1868201",
+        "created": "2017-01-12T09:12:58+0100",
+        "created_from_client_timezone": "2017-01-12T09:12:58+0100",
+        "operative": "PAYOUT",
+        "amount": 111,
+        "authorization": "014639",
+        "status": "SUCCESS",
+        "error": "NONE",
+        "source": {
+          "object": "CARD",
+          "uuid": "C089B1BF-A4FA-4B0F-A5FE-F21C5BFEFC27",
+          "type": "C",
+          "token": "c734c643edfdccf3555a157fbf7ccb08006fbb1f",
+          "brand": "VISA",
+          "country": "ES",
+          "holder": "pepe",
+          "bin": "454881",
+          "last4": "0004",
+          "prepaid": "true",
+          "expire_month": "12",
+          "expire_year": "20",
+          "additional": null,
+          "bank": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIO"
+        },
+        "antifraud": null
+      }
+    ],
+    "token": ""
+  },
+  "extra_data": {
+    "payment": {
+      "installments": 3
+    }
+  },
+  "client": {
+    "uuid": "818431F0-F23F-47EA-A854-BD01E8593E2E"
+  }
+}

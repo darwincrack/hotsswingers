@@ -1,0 +1,25 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2017-01-12T09:12:58+0100",
+  "Customer": {
+    "external_id": "user"
+  },
+  "Source": {
+    "object": "CARD",
+    "uuid": "C089B1BF-A4FA-4B0F-A5FE-F21C5BFEFC27",
+    "type": "C",
+    "token": "c734c643edfdccf3555a157fbf7ccb08006fbb1f",
+    "brand": "VISA",
+    "country": 840,
+    "holder": "John doe",
+    "bin": 454881,
+    "last4": "0004",
+    "expire_month": "12",
+    "expire_year": "20",
+    "additional": "card12345",
+    "bank": "JPMORGAN CHASE BANK, N.A.",
+    "validation_date": "2017-01-12 09:12:58",
+    "prepaid": ""
+  }
+}

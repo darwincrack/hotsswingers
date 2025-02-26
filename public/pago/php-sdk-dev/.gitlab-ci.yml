@@ -1,0 +1,17 @@
+before_script:
+  - eval `ssh-agent` 2>&1 > /dev/null
+  - mkdir -p ~/.ssh
+  - echo "$SSH_PUBLIC_KEY" >> ~/.ssh/id_rsa.pub && chmod 0600 ~/.ssh/id_rsa.pub
+  - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_rsa && chmod 0600 ~/.ssh/id_rsa
+  - ssh-keyscan -t rsa gitlab.paynopain.com > ~/.ssh/known_hosts
+  - ssh-add ~/.ssh/id_rsa 2>&1 > /dev/null
+  - composer clear-cache
+  - composer update -q --no-interaction
+
+php7.0:
+  image: adlacruzes/php-ci:7.0
+  tags:
+    - paylands-sdk
+  script:
+    - php --version
+    - composer run ci

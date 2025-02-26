@@ -1,0 +1,25 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2019-12-04T16:30:29+0100",
+  "plan": {
+    "name": "Real plan name",
+    "external_id": "plan",
+    "interval": 1,
+    "interval_type": "MONTHLY",
+    "amount": 499,
+    "trial_available": true,
+    "interval_offset": 1,
+    "interval_offset_type": "WEEKLY",
+    "created_at": "2019-12-04 16:30:29",
+    "updated_at": "2019-12-04 16:30:29",
+    "product": {
+      "name": "Real product",
+      "external_id": "product",
+      "sandbox": false,
+      "notification_url": "https://yourdomain.com/subscriptions/notify",
+      "created_at": "2019-12-04 15:29:10",
+      "updated_at": "2019-12-04 15:29:10"
+    }
+  }
+}

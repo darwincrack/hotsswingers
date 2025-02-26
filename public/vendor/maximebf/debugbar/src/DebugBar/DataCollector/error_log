@@ -1,0 +1,363 @@
+[06-Sep-2020 21:55:27 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[06-Sep-2020 21:55:38 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[06-Sep-2020 21:56:02 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php on line 26
+[06-Sep-2020 21:56:29 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[06-Sep-2020 21:57:20 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[06-Sep-2020 21:57:46 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php on line 16
+[06-Sep-2020 21:58:14 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php on line 16
+[06-Sep-2020 21:58:41 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php on line 19
+[06-Sep-2020 21:59:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[06-Sep-2020 21:59:42 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php on line 16
+[09-Sep-2020 17:26:06 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[09-Sep-2020 17:26:14 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php on line 16
+[09-Sep-2020 17:26:34 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php on line 19
+[09-Sep-2020 17:26:52 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[09-Sep-2020 17:27:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[09-Sep-2020 17:28:34 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[09-Sep-2020 17:28:57 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php on line 16
+[09-Sep-2020 17:29:30 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[12-Sep-2020 01:42:17 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php on line 26
+[12-Sep-2020 01:43:35 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php on line 16
+[15-Oct-2020 14:24:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Oct-2020 14:24:55 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[15-Oct-2020 17:16:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Oct-2020 00:16:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[17-Oct-2020 11:12:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[17-Oct-2020 16:55:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[17-Oct-2020 16:55:46 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[18-Oct-2020 11:25:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[18-Oct-2020 11:25:50 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[18-Oct-2020 13:57:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[18-Oct-2020 16:28:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[18-Oct-2020 16:28:36 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[18-Oct-2020 16:54:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[18-Oct-2020 16:54:38 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[19-Oct-2020 00:22:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Oct-2020 00:22:19 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php on line 16
+[19-Oct-2020 02:53:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Oct-2020 02:53:15 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php on line 16
+[19-Oct-2020 05:24:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Oct-2020 05:24:51 UTC] PHP Fatal error:  Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php on line 19
+[20-Oct-2020 18:15:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[20-Oct-2020 18:15:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[20-Oct-2020 18:18:25 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[20-Oct-2020 18:18:25 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php on line 16
+[15-Nov-2020 13:23:25 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:23:25 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[15-Nov-2020 13:23:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:23:26 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[15-Nov-2020 13:23:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:23:27 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php on line 16
+[15-Nov-2020 13:23:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:23:28 UTC] PHP Fatal error:  Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php on line 26
+[15-Nov-2020 13:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:23:29 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[15-Nov-2020 13:23:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:23:30 UTC] PHP Fatal error:  Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php on line 19
+[15-Nov-2020 13:23:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:23:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[15-Nov-2020 13:23:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:23:33 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php on line 16
+[15-Nov-2020 13:26:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:26:58 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php on line 16
+[15-Nov-2020 13:27:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Nov-2020 13:27:01 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[25-Nov-2020 20:00:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[25-Nov-2020 22:03:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[25-Nov-2020 22:03:27 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[26-Nov-2020 04:14:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[26-Nov-2020 04:14:42 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[26-Nov-2020 07:09:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[26-Nov-2020 11:24:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[26-Nov-2020 11:24:37 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php on line 16
+[26-Nov-2020 15:15:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[26-Nov-2020 15:15:40 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[27-Nov-2020 02:55:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[27-Nov-2020 02:55:29 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[27-Nov-2020 09:59:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[27-Nov-2020 19:21:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[27-Nov-2020 19:21:41 UTC] PHP Fatal error:  Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php on line 26
+[28-Nov-2020 05:25:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[28-Nov-2020 05:25:17 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php on line 16
+[28-Nov-2020 09:20:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[28-Nov-2020 11:44:16 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[28-Nov-2020 11:44:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[28-Nov-2020 15:13:57 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[28-Nov-2020 15:13:57 UTC] PHP Fatal error:  Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php on line 19
+[29-Nov-2020 01:17:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[29-Nov-2020 01:17:28 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[29-Nov-2020 06:21:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[29-Nov-2020 06:21:21 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[29-Nov-2020 14:13:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[29-Nov-2020 14:13:29 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php on line 16
+[30-Nov-2020 05:45:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[30-Nov-2020 05:45:34 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[30-Nov-2020 13:24:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand.so.5: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[23-Jan-2021 01:49:24 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php on line 19
+[23-Jan-2021 01:50:14 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[23-Jan-2021 01:50:25 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[23-Jan-2021 01:50:28 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php on line 16
+[23-Jan-2021 01:50:29 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php on line 16
+[23-Jan-2021 01:52:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[23-Jan-2021 01:54:04 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php on line 16
+[23-Jan-2021 01:55:48 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[23-Jan-2021 01:57:32 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php on line 26
+[23-Jan-2021 01:59:37 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[09-Mar-2021 00:12:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php on line 19
+[09-Mar-2021 00:15:50 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[09-Mar-2021 00:16:11 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[09-Mar-2021 00:17:15 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[09-Mar-2021 00:18:31 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[09-Mar-2021 00:19:45 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php on line 16
+[09-Mar-2021 00:21:03 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php on line 16
+[09-Mar-2021 00:22:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[13-Mar-2021 05:48:19 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php on line 26
+[10-Jan-2022 22:51:22 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MemoryCollector.php on line 16
+[11-Jan-2022 06:25:16 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/TimeDataCollector.php on line 19
+[11-Jan-2022 07:55:16 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php on line 16
+[11-Jan-2022 08:25:16 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php on line 19
+[11-Jan-2022 14:50:38 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ConfigCollector.php on line 16
+[11-Jan-2022 15:57:12 UTC] PHP Fatal error:  Uncaught Error: Interface 'DebugBar\DataCollector\DataCollectorInterface' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/AggregatedCollector.php on line 26
+[11-Jan-2022 16:48:38 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/LocalizationCollector.php on line 16
+[11-Jan-2022 18:18:38 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19
+[12-Jan-2022 05:31:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[12-Jan-2022 05:51:27 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/RequestDataCollector.php on line 16
+[20-Jan-2022 06:18:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/MessagesCollector.php on line 19
+[20-Jan-2022 18:38:28 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/webcam/public_html/public/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php on line 19

@@ -1,0 +1,297 @@
+<style>
+  
+  .noty-pill{
+   text-transform: uppercase;
+    background-color: #DE001A;
+    color: #fff;
+    font-size: 9px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    display: inline-block;
+    white-space: nowrap;
+    -webkit-align-self: center;
+    -moz-align-self: center;
+    align-self: center;
+    -ms-flex-item-align: center;
+    margin-right: 4px;
+    
+    -webkit-font-smoothing: subpixel-antialiased;
+    vertical-align: middle;
+    padding: 0 7px;
+    border-radius: 200px;
+    
+}
+
+.goalInfo{
+        color: #DE001A;
+    font-weight: bold;
+    padding: 2px;
+    
+}
+
+
+q.goalInfo-txt.atv_info_goal{
+    font-weight: normal;
+    display: block;
+    
+}
+
+.atv_game_totalcoins{
+    
+    text-decoration: none;
+}
+    
+.multiretos-chat {
+    background: #d8f8d2;
+    color: black;
+}
+
+.vp-chat {
+   background-color: #ffdee2;
+    color: #000;
+}
+
+.lovense-chat .icon-coin, .multiretos-chat .icon-coin, .vp-chat .icon-coin, .text-videoprivado .icon-coin{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/coin.svg);
+    margin-left: 3px;
+    display: inline-block;
+}
+
+.chat-multiretos{
+
+margin: 5px;
+    border: 1px solid #9a1818;
+    border-radius: 5px;
+    background: #ff00000f;
+
+}
+
+.multiretos-chat i.fa.fa-trash.cursor {
+    display: none;
+}
+
+
+.goal.doneGoal .noty-pill {
+    color: white;
+    background-color: green;
+}
+
+
+.goal.doneGoal .atv_game_totalcoins{
+    color: green;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+
+.goal.doneGoal q.goalInfo-txt.atv_info_goal {
+    font-weight: normal;
+    display: block;
+    text-decoration: line-through;
+    color:green;
+}
+
+
+span.txt__content.atv_msg_contentdoneGoal {
+    color: green;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+.text-videoprivado {
+    display: block;
+    margin: 5px;
+    border: 1px solid #9a1818;
+    border-radius: 5px;
+    background: #ff00000f;
+    padding: 0;
+    width: 98%;
+      display:  none;
+}
+
+</style>
+
+<div class="tab-border">
+  <button class="btn btn-danger reset-message-btn" ng-click="resetMessage()" ng-show="isShowResetMessage && chatType === 'public'">{{ResetMessages}}</button>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a ng-click="changeTab('chats')" aria-controls="chat" role="tab" data-toggle="tab" id="chats">Chat</a></li>
+    <li role="presentation" ng-show="chatType != 'private'"><a ng-click="changeTab('users')" aria-controls="users" role="tab" data-toggle="tab">{{Users}}({{members.length}})</a></li>
+    <li role="presentation" ng-show="isShowPrivateRequest" ><a ng-click="changeTab('privateChat')" area-controls="privateChat" role="tab" data-toggle="tab" ng-class="{'hightLighTab': hightLighTab === true}">{{PrivateChat}}(<span id="private-amount">{{videoRequests.length}}</span>)</a></li>
+
+    <li role="presentation" ng-show="isShowJugarRuleta"><a ng-click="changeTab('JugarRuleta')" aria-controls="JugarRuleta" role="tab" data-toggle="tab" style="color: #1f299f;" id="juegoruleta">RULETA HOT</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+
+  <div class="tab-content" >
+
+    <div role="tabpanel" class="tab-pane" ng-class="{'active': chatPanel == 'chats'}" m-chat-scroll>
+
+
+        <div class="row chat-multiretos" ng-show="progressMultiretos">
+            <div class="col-md-3">
+              <span><i id="acumulado">{{Multiretoacumulado}}</i>/<i id="goal">{{Multiretogoal}}</i></span><br>
+              <progress class="progressMultireto" id="progressMultireto" value="{{Multiretoacumulado}}" max="{{Multiretogoal}}" style="width: 75%;" ></progress>
+            </div>
+
+             <div class="col-md-9" style="    padding: 10px; font-weight: bold; color: #9a1818;">
+              Desafio #<i id="multiretonumero"> {{Multiretonumero}}</i>:  <i id="multiretotexto"> "{{Multiretotext}}"</i>
+
+
+            </div>
+
+           <a style="    text-decoration: underline;"  ng-click="btnFinalizarMultireto()" ng-show="modelId == memberId">Finalizar todos los desafios</a>
+
+
+          
+           
+        </div>
+            <div class=" text-center text-videoprivado">
+            
+                <span> Video privado <strong><i id="cantvideoprivadox"></i></strong> <i class="icon-coin"></i></span>
+          </div>
+        <ul class="list-chat">
+          <li class="text-center"><a ng-show="enableLoadMore" ng-click="loadPreviousMessage()">{{Showpreviousmessage}}</a>
+            <div ng-show="showLoading"><i class="fa fa-refresh fa-spin fa-3x fa-fw margin-bottom"></i>
+  <span class="sr-only">{{loading}}</span></div>
+          </li>
+          <li ng-repeat="(key, msg) in chatMessages | orderBy: 'chatId'" ng-show="msg != null" ng-class="{'tip-chat': msg.tip == 'yes', 'lovense-chat': msg.toys, 'multiretos-chat' :  msg.tip == 'mr', 'multiretos-chat' :  msg.tip == 'ru','multireto-chat': msg.toys, 'vp-chat' :  msg.tip == 'vp' } ">
+            <strong ng-class="{'model': modelId==msg.userId, 'banned': msg.banStatus == 'yes'}">
+            {{msg| chatUsername}} : {{toys}} 
+         
+           </strong> <span ng-bind-html="msg.text | convertIcon"></span> <span ng-show="!msg.toys"><i ng-show="isShowRemoveMessage" class="fa fa-trash cursor" title="{{Deletethismessage}}" ng-click="removeMessage(msg.id)"></i><span>
+          </li>
+        </ul>
+        <div class="box-chat">
+            <div class="chat-mes">
+                <input type="text" autocomplete="off" ng-keyup="send($event)" emoji-input ng-model="data.text" name="message" class="form-control input-lg" placeholder="{{Typeamessagehere}}"/>
+            </div>
+            <button  class="btn btn-lg btn-danger" id="send-message" ng-click="send()">{{SEND}}</button>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" ng-class="{'active': chatPanel == 'users'}" ng-show="chatType != 'private'">
+      <ul class="list-user list-user-public">
+        <li ng-repeat="member in members | unique: 'id'" id="user-{{member.id}}" ng-if="member.role !== 'guest'">
+            <span ng-show="chatType != 'group' || modelId != memberId">{{member| chatUsername}} </span>
+            <span ng-show="chatType == 'group' && modelId==memberId">{{member| chatUsername}}: {{member.spendTokens | round }} tokens/ {{member.time | minutePlural}}</span>
+        </li>
+        <li ng-show="guests.length">
+          <span>+ <% guests.length %> anonymous users</span>
+        </li>
+        <li ng-show="!members.length">
+          <span>{{Therearenomemberonline}}</span>
+        </li>
+      </ul>
+    </div>
+    <div role="tabpanel" class="tab-pane tab-primary" ng-class="{'active': chatPanel=='privateChat'}">
+        <ul class="list-user">
+          <li ng-repeat="request in videoRequests" ng-attr-id="{{'private-'+request.id}}">
+              <img ng-src="{{request.avatar| avatar}}"> <a ng-href="<% request . requestUrl %>"><% request . username %> <i>({{ request.tokens | decimal: 2 }} tokens)</i></a> 
+          </li>
+        </ul>
+    </div>
+
+
+
+ <div role="tabpanel" class="tab-pane tab-primary list-user" ng-class="{'active': chatPanel=='JugarRuleta'} ">
+
+
+
+ <p class="text-center" style="padding: 10px; "><a style="text-decoration: underline;"  ng-click="btnFinalizarRuleta()" ng-show="modelId == memberId">Finalizar juego de la ruleta</a></p>
+
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item active" ng-show="isShowtabniveluno">
+    <a class="nav-link active" id="niveluno-tab" data-toggle="tab" href="#niveluno" role="tab" aria-controls="niveluno" aria-selected="true" ng-click="drawRuleta(1)">{{tabListNiveluno_titulo}}</a>
+  </li>
+  <li class="nav-item" ng-show="isShowtabniveldos">
+    <a class="nav-link" id="niveldos-tab" data-toggle="tab" href="#niveldos" role="tab" aria-controls="niveldos" aria-selected="false" ng-click="drawRuleta(2)">{{tabListNiveldos_titulo}}</a>
+  </li>
+  <li class="nav-item" ng-show="isShowtabniveltres">
+    <a class="nav-link" id="niveltres-tab" data-toggle="tab" href="#niveltres" role="tab" aria-controls="niveltres" aria-selected="false" ng-click="drawRuleta(3)">{{tabListNiveltres_titulo}}</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+
+
+
+  <div class="tab-pane fade in active text-center" id="niveluno" role="tabpanel" aria-labelledby="niveluno-tab" >
+
+
+        <button class="btn btn-success" ng-hide="modelId == memberId"  ng-click="gira(1)">Girar por {{tabListNiveluno_goal}} </button>
+
+        <div id="question_1"><h1></h1></div>
+
+
+        <p  ng-show="modelId == memberId">‎Tokens para jugar a la ruleta: <strong>{{tabListNiveluno_goal}}</strong></p>
+
+        <p ng-show="modelId == memberId">‎Elementos de la ruleta:</p>
+        <p style="padding: 10px;" ng-hide="modelId == memberId">‎El modelo hará lo que la Rueda señala al azar.‎</p>
+     
+
+          <div ng-repeat='task in tabListNiveluno track by $index'>
+            <p>{{$index + 1}}- {{task.task}}</p>
+          </div>
+
+
+            
+
+
+  </div>
+  <div class="tab-pane fade text-center" id="niveldos" role="tabpanel" aria-labelledby="niveldos-tab">
+    
+      <button class="btn btn-success" ng-hide="modelId == memberId" ng-click="gira(2)">Girar por {{tabListNiveldos_goal}} </button>
+
+ <div id="question_2"><h1></h1></div>
+
+
+      <p  ng-show="modelId == memberId">‎Tokens para jugar a la ruleta: <strong>{{tabListNiveldos_goal}}</strong></p>
+        <p style="padding: 10px;" ng-show="modelId == memberId">‎Elementos de la ruleta:</p>
+        <p style="padding: 10px;" ng-hide="modelId == memberId">‎El modelo hará lo que la Rueda señala al azar.‎</p>
+        
+
+          <div ng-repeat='task in tabListNiveldos track by $index'>
+            <p>{{$index + 1}}- {{task.task}}</p>
+          </div>
+
+         
+  </div>
+  
+  <div class="tab-pane fade text-center" id="niveltres" role="tabpanel" aria-labelledby="niveltres-tab">
+    
+      <button  class="btn btn-success" ng-hide="modelId == memberId" ng-click="gira(3)">Girar por {{tabListNiveltres_goal}} </button>
+
+       <div id="question_3"><h1></h1></div>
+       
+       <p  ng-show="modelId == memberId">‎Tokens para jugar a la ruleta: <strong>{{tabListNiveltres_goal}}</strong></p>
+       <p style="padding: 10px;" ng-show="modelId == memberId">‎Elementos de la ruleta:</p>
+        <p style="padding: 10px;" ng-hide="modelId == memberId">‎El modelo hará lo que la Rueda señala al azar.‎</p>
+        
+
+          <div ng-repeat='task in tabListNiveltres track by $index'>
+            <p>{{$index + 1}}- {{task.task}}</p>
+          </div>
+
+
+
+  </div>
+</div>
+
+
+
+       
+    </div>
+
+
+
+
+
+
+
+  </div>
+</div>

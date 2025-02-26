@@ -1,0 +1,85 @@
+{
+  "message": "OK",
+  "code": 200,
+  "current_time": "2017-01-12T09:12:58+0100",
+  "order": {
+    "uuid": "114A527E-65C7-4720-99F6-DF635A4975E0",
+    "created": "2017-01-11T15:50:16+0100",
+    "created_from_client_timezone": "2017-01-11T15:50:16+0100",
+    "amount": 4200,
+    "currency": "484",
+    "paid": true,
+    "safe": false,
+    "refunded": 500,
+    "additional": "",
+    "service": "MIT",
+    "customer": null,
+    "status": "REFUNDED",
+    "transactions": [
+      {
+        "uuid": "A714DC03-70F6-4F71-AFB8-5E99B1868201",
+        "created": "2017-01-12T09:12:58+0100",
+        "created_from_client_timezone": "2017-01-12T09:12:58+0100",
+        "operative": "AUTHORIZATION",
+        "amount": 4200,
+        "authorization": "014639",
+        "status": "SUCCESS",
+        "error": "NONE",
+        "source": {
+          "object": "CARD",
+          "uuid": "C089B1BF-A4FA-4B0F-A5FE-F21C5BFEFC27",
+          "type": "C",
+          "token": "c734c643edfdccf3555a157fbf7ccb08006fbb1f",
+          "brand": "VISA",
+          "country": "ES",
+          "holder": "pepe",
+          "bin": "454881",
+          "last4": "0004",
+          "prepaid": "true",
+          "expire_month": "12",
+          "expire_year": "20",
+          "additional": "main card",
+          "bank": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A."
+        },
+        "antifraud": null
+      },
+      {
+        "uuid": "1538201e-9d65-478d-a8fd-853e97e7855b",
+        "created": "2017-01-13T09:12:58+0100",
+        "created_from_client_timezone": "2017-01-12T09:12:58+0100",
+        "operative": "REFUND",
+        "amount": 500,
+        "authorization": "012674",
+        "status": "SUCCESS",
+        "error": "NONE",
+        "source": {
+          "object": "CARD",
+          "uuid": "C089B1BF-A4FA-4B0F-A5FE-F21C5BFEFC27",
+          "type": "C",
+          "token": "c734c643edfdccf3555a157fbf7ccb08006fbb1f",
+          "brand": "VISA",
+          "country": "ES",
+          "holder": "pepe",
+          "bin": "454881",
+          "last4": "0004",
+          "prepaid": "true",
+          "expire_month": "12",
+          "expire_year": "20",
+          "additional": "main card",
+          "bank": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A."
+        },
+        "antifraud": null
+      }
+    ],
+    "token": "5d8938ddbe917764a08a58583758a031552dd5eda75f9778b5fd0b18e65894d997eb020c7e71f93471b1720e154d13e7390fd734434561f8a9299bd8f16ca970",
+    "ip": null
+  },
+  "extra_data": {
+    "payment": {
+      "installments": 3
+    }
+  },
+  "client": {
+    "uuid": "818431F0-F23F-47EA-A854-BD01E8593E2E"
+  }
+}

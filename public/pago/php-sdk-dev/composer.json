@@ -1,0 +1,47 @@
+{
+  "name": "apokdev/paylands-sdk",
+  "description": "Paylands API Client for PHP",
+  "type": "library",
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "myclabs/php-enum": "1.6.6",
+    "ext-json": "*",
+    "ext-iconv": "*"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.1",
+    "sempro/phpunit-pretty-print": "^1.0",
+    "phpstan/phpstan": "^0.9.3",
+    "phpunit/phpunit": "^6.5",
+    "phpstan/phpstan-phpunit": "^0.9.4",
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "PaylandsSDK\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PaylandsSDK\\Tests\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniela Ruiz",
+      "email": "daniela@grupoapok.com"
+    }
+  ],
+  "scripts": {
+    "phpstan": "vendor/bin/phpstan analyse -c phpstan.neon --level=max src tests",
+    "php-cs-fixer": "php vendor/bin/php-cs-fixer fix src",
+    "tests": "vendor/bin/phpunit",
+    "ci": [
+      "php vendor/bin/php-cs-fixer fix src --dry-run --diff --verbose --diff-format=udiff --show-progress=none --ansi",
+      "@phpstan",
+      "@tests"
+    ]
+  }
+}
