@@ -1,7 +1,6 @@
 /vendor/
 node_modules/
 pm2/
-xcams-v2-nodejs/
 npm-debug.log
 yarn-error.log
 bootstrap/compiled.php
@@ -27,8 +26,8 @@ public/.well-known/
 #ossn specific
 
 #do not push settings files
-/configurations/ossn.config.db.php
-/configurations/ossn.config.site.php
+public/dashboard/configurations/ossn.config.db.php
+public/dashboard/configurations/ossn.config.site.php
 
 #do not include following files
 public/dashboard/cache
@@ -39,3 +38,5 @@ public/dashboard/Desktop.ini
 public/dashboard/DISPLAY_ERRORS
 public/dashboard/error_log
 ossn_data/
+
+public/uploads.zip
